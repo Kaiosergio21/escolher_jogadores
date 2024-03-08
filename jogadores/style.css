@@ -1,0 +1,38 @@
+
+.all{
+
+    padding-top: 10%;
+}
+
+.retangulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+
+}
+
+.controles{
+  
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 2rem;
+    gap: 1rem;
+    
+
+}
+
+#jogador{
+
+    width: 40%; /* Define a largura da imagem como 50% */
+    height: auto; /* Mantém a proporção da imagem */
+
+}
+
+button{
+
+    cursor: pointer;
+}
